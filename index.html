@@ -10,52 +10,55 @@
   <script src="script.js" type="text/javascript"></script>
 </head>
 <!-- Nav bar inside a header element -->
-<header id="header" class = "web-header">
-<!-- Section for the links -->
+<header id="header" class="web-header">
+  <!-- Section for the links -->
   <nav class="nav-container">
-    <ul class = "nav-links">
-        <li class="nav-links"><a href="#">About</a></li>
-        <li class="nav-links"><a href="#">Projects</a></li>
-        <li class="nav-links">Feature</li>
+    <ul class="nav-links">
+      <li class="nav-links"><a href="#about">About</a></li>
+      <li class="nav-links"><a href="#projects">Projects</a></li>
+      <li class="nav-links">Feature</li>
     </ul>
   </nav>
-<!-- Section for the logo (just my name) -->
-<div class="logo-wrap">
-  <div class="logo">
-    <a href="#">Marina Villarroel</a>
+  <!-- Section for the logo (just my name) -->
+  <div class="logo-wrap">
+    <div class="logo">
+      <a href="#">Marina Villarroel</a>
+    </div>
   </div>
-</div>
-<!-- Section for the social media links -->
-<div class="nav-social">
-  <ul class="nav-social-list">
-    <li class="social-logo-wrapper">
-      <a href="https://www.instagram.com/thedazzlingsun/"><img class = "social-logo" src="instagram.png" alt="instagram"></a>
-    </li>
-    <li class="social-logo-wrapper">
-      <a href="https://www.linkedin.com/in/marinavillarroel/"><img class = "social-logo" src="linkedin.png" alt=""></a></li>
-   <li class="social-logo-wrapper">
-     <a href="mailto:name@gmail.com"><img class = "social-logo" src="mail.png" alt=""></a></li>
-  </ul>
-</div>
+  <!-- Section for the social media links -->
+  <div class="nav-social">
+    <ul class="nav-social-list">
+      <li class="social-logo-wrapper">
+        <a href="https://www.instagram.com/thedazzlingsun/"><img class="social-logo" src="instagram.png" alt="instagram"></a>
+      </li>
+      <li class="social-logo-wrapper">
+        <a href="https://www.linkedin.com/in/marinavillarroel/"><img class="social-logo" src="linkedin.png" alt=""></a></li>
+      <li class="social-logo-wrapper">
+        <a href="mailto:name@gmail.com"><img class="social-logo" src="mail.png" alt=""></a></li>
+    </ul>
+  </div>
 </header>
 <!-- Start of the webpage -->
+
 <body>
-<!-- Start of the top section which will be set out with a grid layout -->
-  <div class="top">
-    <div class="box1"><img class="image-top-2" src="images/alps.jpg" alt="Running"></div>
+  <!-- Start of the top section which will be set out with a grid layout -->
+  <div id="top" class="top">
+    <div class="box1"><img class="image-top-2" src="images/alps.jpg" alt="Nature"></div>
     <div class="item"><img class="image-top-1" src="images/marina2.jpg" alt="immersive-exhibition"></div>
     <div class="item"><img class="image-top-1" src="images/alhambra.jpg" alt="about-me"></div>
     <div class="item"><img class="image-top-1" src="images/marina.jpg" alt="Marina"></div>
-    <div class="item"><img class="image-top-1" src="images/madrid.jpg" alt="Madrid"></div>
+    <div class="item"><img class="image-top-1" src="images/madrid1.jpg" alt="Madrid"></div>
     <div class="box2"><img class="image-top-2" src="images/London.jpg" alt="London"></div>
-
   </div>
 
-  <div id = "middle-container" class="middle-container">
+  <div id="about" class="middle-container">
     <div class="profile">
       <h6>WELL HELLO THERE</h6>
       <h3 class="introduction">I am Marina Villarroel, a creative, architect and aspiring web developer based in London, UK.</h3>
-      <p style="line-height: 2;">I have a passion for creativity, architectural design, and web design. I was born in Salamanca, Spain; but spent my young adulthood in Madrid where I studied Architecture. I migrated over to London in search of opportunities. This is not just a dynamic and amazing city, but also one that gives you so many options and different paths. All of my working life so far has been in London, and although I remain passionate about architecture and problem solving, I feel there is more to explore in the tech industry to fulfill my design focus and creativity. The pandemic has also made me reevaluate things and value flexibility and dynamism, which the construction world lacks. I started my coding world in Udemy and I have caught the coding bug; I would love the opportunity to keep learning with Founders and Coders.</p>
+      <p style="line-height: 2;">I have a passion for creativity, architectural design, and web design. I was born in Salamanca, Spain; but spent my young adulthood in Madrid where I studied Architecture. I migrated over to London in search of
+        opportunities. This is not just a dynamic and amazing city, but also one that gives you so many options and different paths. All of my working life so far has been in London, and although I remain passionate about architecture and problem
+        solving, I feel there is more to explore in the tech industry to fulfill my design focus and creativity. The pandemic has also made me reevaluate things and value flexibility and dynamism, which the construction world lacks. I started my
+        coding world in Udemy and I have caught the coding bug; I would love the opportunity to keep learning with Founders and Coders.</p>
     </div>
     <hr>
     <div class="skills">
@@ -79,7 +82,7 @@
       </div>
     </div>
     <hr>
-    <div class="skills">
+    <div id="projects" class="skills">
       <h2>My Projects.</h2>
       <div class="box">
         <div class="project-row">
@@ -100,7 +103,8 @@
           <button id="button2" class="bttn-project" type="button" onclick="myFunction(2)">&#x25bc</button>
           <br>
           <h3>A place of learning</h3>
-          <p id="description-p2" class="description-p2">The Learning Hub at the new Waterside Campus of the University of Northampton is the central piece that will house under one roof the Library, student administration, shared general teaching areas, specialists’
+          <p id="description-p2" class="description-p2">The Learning Hub at the new Waterside Campus of the University of Northampton is the central piece that will house under one roof the Library, student administration, shared general teaching
+            areas, specialists’
             skills spaces, academic workspaces and catering. Such different spaces are made possible with the use of a central open space as connector. The building has been thought to be accessible
             24 hours/day.</p>
 
