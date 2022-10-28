@@ -66,11 +66,8 @@ nav {
   width: 94%;
   align-items: center;
   background-color: #FFFFFF;
+  padding: 0 3% 0 3%;
   height: 100px;
-  padding-bottom: 0;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-top: 0;
   position: fixed;
   z-index: 3;
 }
@@ -146,20 +143,20 @@ input[type=checkbox] {
 }
 
 /* APPLYING MEDIA QUERIES */
-@media (min-width: 480px) {
+@media (max-width: 610px) {
   .nav-links {
     display: none;
     position: absolute;
     background-color: whitesmoke;
+    top: 100px;
     right: 0;
     left: 0;
     text-align: center;
-    padding: 100px 0 10px;
+    padding: 10px 0 10px;
   }
 
   .link a:hover {
     display: inline-block;
-    background-color: #4c9e9e;
     transition: 0.3s ease;
   }
 
@@ -173,6 +170,11 @@ input[type=checkbox] {
 
   .hamburger {
     display: block;
+  }
+  .hamburger:hover {
+    color: grey;
+    transition: 0.3s ease;
+    text-decoration: none;
   }
 }
 
@@ -238,11 +240,11 @@ input[type=checkbox] {
 }
 /* APPLYING MEDIA QUERIES */
 @media (min-width: 480px) {
-  
+
   .profile {
   width: 70%;
   margin: 100px auto 100px;}
-  
+
 }
 .introduction {
   width: 70%;
@@ -250,16 +252,6 @@ input[type=checkbox] {
 }
 
 /* MIDDLE SECTION*/
-.marina {
-  border-radius: 100%;
-  height: 200px;
-  width: 200px;
-}
-
-.marina:hover {
-  border-style: dotted;
-  border-color: #79bac1;
-}
 
 .arch-image {
   border-radius: 100%;
@@ -273,34 +265,8 @@ input[type=checkbox] {
   width: 250px;
 }
 
-.arch {
-  text-decoration: underline;
-}
 
-.bottom-cloud {
-  position: absolute;
-  left: 25%;
-  bottom: 300px;
-}
 
-.top-cloud {
-  position: absolute;
-  right: 25%;
-  top: 20px;
-}
-
-.contact-me {
-  width: 50%;
-  margin: 100px auto 100px;
-  line-height: 2;
-}
-
-.bottom-container {
-  padding: 30px;
-  background-color: #f1f3f4;
-  line-height: 2;
-  font-size: 0.6rem;
-}
 
 .skills {
   margin: 100px auto 100px;
@@ -364,13 +330,7 @@ input[type=checkbox] {
   float: left;
 }
 
-.footer-copyright {
-  color: #eaf6f6;
-}
 
-.footer-link {
-  margin: 30PX;
-}
 
 .bttn {
   margin-top: 20PX;
@@ -421,4 +381,29 @@ input[type=checkbox] {
 .bttn-project:hover {
   background: linear-gradient(to bottom, #409996 5%, #5ebabd 100%);
   background-color: #409996;
+}
+/* Contact-me SECTION*/
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto 100px;
+  line-height: 2;
+}
+
+
+/* footer SECTION*/
+
+.bottom-container {
+  padding: 30px;
+  background-color: #f1f3f4;
+  line-height: 2;
+  font-size: 0.6rem;
+}
+
+.footer-copyright {
+  color: white;
+}
+
+.footer-link {
+  margin: 30PX;
 }
