@@ -154,7 +154,7 @@ input[type=checkbox] {
     right: 0;
     left: 0;
     text-align: center;
-    padding: 16px 0;
+    padding: 100px 0 10px;
   }
 
   .link a:hover {
@@ -240,7 +240,7 @@ input[type=checkbox] {
 @media (min-width: 480px) {
   
   .profile {
-  width: 100%;
+  width: 70%;
   margin: 100px auto 100px;}
   
 }
