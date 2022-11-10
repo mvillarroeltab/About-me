@@ -57,11 +57,27 @@
 
 <!-- Start of the feature which will be hidden until javascript code executes -->
 
-  <div id="image-carousel" class="im-carousel">
-    <div class="carousel-slide"></div>
-    <div class="carousel-buttons"></div>
-
+  <div id="image-carousel" class="carousel-no-show">
+    <div class="carousel-container">
+      <div id="slide1" class="carousel-slide fade" ><img class="image-in-carousel" src="images/alps.JPG" alt="Nature"></div>
+      <div id="slide2" class="carousel-slide fade" ><img class="image-in-carousel" src="images/Marina2.jpg" alt="immersive-exhibition"></div>
+      <div id="slide3" class="carousel-slide fade" ><img class="image-in-carousel" src="images/madrid1.jpg" alt="Marina"></div>
+      <div id="slide4" class="carousel-slide fade" ><img class="image-in-carousel" src="images/London.jpg" alt="Marina"></div>
+      <div id="slide5" class="carousel-slide fade" ><img class="image-in-carousel" src="images/alhambra.jpg" alt="Marina"></div>
+      
+    </div>
+    <div class="dot-container">
+      <ul class="list-dot-container">
+        <li id= "dot1" class="dot" onclick="currentSlide(1)"></li>
+        <li id= "dot2" class="dot" onclick="currentSlide(2)"></li>
+        <li id= "dot3" class="dot" onclick="currentSlide(3)"></li>
+        <li id= "dot4" class="dot" onclick="currentSlide(4)"></li>
+        <li id= "dot5" class="dot" onclick="currentSlide(5)"></li>
+      </ul>
+    </div>
   </div>
+
+
 
 
 <!-- Start of the middle section which will contain the 'about me' information -->
@@ -138,7 +154,7 @@
 
     <div class="contact-me">
       <h2 style="line-height: 2;">Get In Touch</h2>
-      <h3>I am currently available for freelance work.</h3>
+      <h3>I am currently available for interviews :)</h3>
       <p>So if you have a project that you want to develop, or think I can help you with your web development needs, please get in touch.</p>
       <a href="mailto:m.villarroeltab@gmail.com" class="bttn">CONTACT ME</a>
     </div>
