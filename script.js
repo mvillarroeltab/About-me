@@ -38,9 +38,8 @@ function showCarousel(){
 
 // }
 
-let slideIndex = 1;
-showSlides(slideIndex);
 
+let slideIndex = 1;
 function showSlides(n){
     let i;
     let slides = document.querySelectorAll(".carousel-slide");
@@ -57,9 +56,13 @@ function showSlides(n){
     dots[slideIndex-1].className += " active";
 }
 
-function currentSlide(n){
-    showSlides(slideIndex = n);
-}
+
+showSlides(slideIndex);
+
+function updateCurrentSlide(n){
+    slideIndex = n;
+    showSlides(slideIndex);
+};
 
 let feature = document.getElementById("feature");
 feature.addEventListener("click", showCarousel);
