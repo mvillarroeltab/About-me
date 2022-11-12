@@ -1,10 +1,13 @@
-setTimeout(function showCarousel(){
+
+// setTimeout(showCarousel, 10000);
+
+function showCarousel(){
     var imGrid = document.getElementById("top");
     imGrid.classList.replace("top", "top-hide");
     var carousel = document.getElementById("image-carousel");
     carousel.classList.replace("carousel-no-show", "carousel-show");
     carousel.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
-}, 5000);
+}
 
 // {
 // // Determine a variable that gets all the slides in the webpage
@@ -48,7 +51,7 @@ function showSlides(n){
         slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace("active", "");
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
@@ -57,4 +60,7 @@ function showSlides(n){
 function currentSlide(n){
     showSlides(slideIndex = n);
 }
+
+let feature = document.getElementById("feature");
+feature.addEventListener("click", showCarousel);
 
