@@ -1,5 +1,11 @@
 
+// This function would show the carousel automatically after 10 seconds have passed in the web for the user. Chose not to use since it might 
+// have usability problems.
+
 // setTimeout(showCarousel, 10000);
+
+// The function 'showCarousel' gets the grid element and replace the class for one with 'display:none'; at the same time gets the carousel element and replaces the class 
+// which makes it non visible to a visible one. Then I use the 'scrollIntoView' method to take the user to the section.
 
 function showCarousel(){
     var imGrid = document.getElementById("top");
@@ -9,34 +15,6 @@ function showCarousel(){
     carousel.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 }
 
-// {
-// // Determine a variable that gets all the slides in the webpage
-
-// const slides = document.querySelectorAll(".carousel-slide");
-// const interval = 2800;
-// const slideDuration = 800;
-
-// for (let i=0; i<slides.length; ++i){
-//     const slides = slides[i];
-//     const dots = slides.queryselector(".list-dot-container");
-//     const slideImages = slides.querySelectorAll(".carousel-slide");
-
-//     let currentImage = 0;
-//     let previousImage = slideImages.length -1;
-//     let time;
-//     let timeout;
-
-//     // Creates the dots inside the dot container and adds listeners to them
-//     for (let i=0; i<slideImages.length, i++){
-//         const dot = createElement("li");
-//         dot.classList.add("dot");
-//         dots.appendChild(dot);
-//         dot.addEventListener("click", dotClick.bind(null, i), false);
-//     }
-//     const allDots = dots.querySelectorAll("dots");
-// }
-
-// }
 
 
 let slideIndex = 1;
@@ -59,11 +37,31 @@ function showSlides(n){
 
 showSlides(slideIndex);
 
+
 function updateCurrentSlide(n){
     slideIndex = n;
     showSlides(slideIndex);
 };
 
+// set interval for slides to move
+
+// Next/previous controls
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+setInterval(function() {
+    plusSlides(1)
+  }, 2000);
+
 let feature = document.getElementById("feature");
 feature.addEventListener("click", showCarousel);
+
+
+
+const infoMarina = {
+
+
+}
 
