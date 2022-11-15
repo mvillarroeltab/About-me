@@ -4,9 +4,9 @@ This is the repository for the FAC application, exercise number 5. The prompt is
 
 The website should:
 
-..- Tell us about you
-..- Talk about why you’d like to move into a career as a web developer
-..- Showcase what you’ve learnt so far
+- Tell us about you
+- Talk about why you’d like to move into a career as a web developer
+- Showcase what you’ve learnt so far
 
 A few of the requirements are:
 All code is written by you
