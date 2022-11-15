@@ -11,19 +11,20 @@ The website should:
 - Showcase what you’ve learnt so far :heavy_check_mark:
 
 Some requirements are:
-    - All code is written by you :heavy_check_mark:
-    - No external libraries (e.g. no Bootstrap, React or GitHub Pages themes, but external fonts/icons are fine) :heavy_check_mark:
-    - Tells us about who you are :heavy_check_mark:
-    - Tells us about why you are applying for the programme :heavy_check_mark:
-    - Shows your progress through the application projects (e.g. links to your deployed projects) :heavy_check_mark:
-    - Hosted on GitHub Pages :heavy_check_mark:
-    - Links back to the GitHub repository that contains the code for your site :heavy_check_mark:
+- All code is written by you :heavy_check_mark:
+- No external libraries (e.g. no Bootstrap, React or GitHub Pages themes, but external fonts/icons are fine) :heavy_check_mark:
+- Tells us about who you are :heavy_check_mark:
+- Tells us about why you are applying for the programme :heavy_check_mark:
+- Shows your progress through the application projects (e.g. links to your deployed projects) :heavy_check_mark:
+- Hosted on GitHub Pages :heavy_check_mark:
+- Links back to the GitHub repository that contains the code for your site :heavy_check_mark:
+
 To demonstrate your learning your site must have at least one example of each of these:
 
-    - Semantic HTML5 elements :heavy_check_mark:
-    - CSS grid or flexbox layout (or both) :heavy_check_mark::heavy_check_mark:
-    - DOM event listeners for user interaction (e.g. click, keydown) :heavy_check_mark:
-    - DOM updates in response to user interaction (e.g. showing/hiding an element, changing text or styles) :heavy_check_mark:
+- Semantic HTML5 elements :heavy_check_mark:
+- CSS grid or flexbox layout (or both) :heavy_check_mark::heavy_check_mark:
+- DOM event listeners for user interaction (e.g. click, keydown) :heavy_check_mark:
+- DOM updates in response to user interaction (e.g. showing/hiding an element, changing text or styles) :heavy_check_mark:
     
 ## Implementation
 
