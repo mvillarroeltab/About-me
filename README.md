@@ -24,7 +24,7 @@ The website should:
     - CSS grid or flexbox layout (or both)
     - DOM event listeners for user interaction (e.g. click, keydown)
     - DOM updates in response to user interaction (e.g. showing/hiding an element, changing text or styles)
-    - 
+    
 ## Implementation
 
 This is a single page website that was written with HTML, CSS and Javascript only.
@@ -37,5 +37,4 @@ To meet the requirements, I wanted the website to have:
 4. A 'what do I bring' section which would further illustrate why I am a good applicant.
 5. A project section made responsive with flex to showcase my learnings.
 6. A closing section on how to contact me.
-
-some information about me and the reasons why I should join the Founders and Coders community. These were then made into three separate slides of a carousel.
+7. The 'feature'. I wanted to give more information about myself with the feature, so I chose the carousel. Javascript launches it when you click on the 'feature' button in the nav bar; replacing the image grid by the image craousel, and makes the slides move automatically after a set interval.
